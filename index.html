@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="U-XA-compatible" content="IE=edge" />
+    <meta name="description" content="GK Shoe making company Nigeria" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="js/product.js"></script>
+    <link rel="icon" href="img/hero-mini.jpg" />
+    <link rel="apple-touch-icon" href="img/hero-mini.jpg" />
+    <link rel="icon" href="img/hero-mini.jpg" sizes="32x32" />
+    <link rel="icon" href="img/hero-mini.jpg" sizes="16x16" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>GK WEARZ</title>
+  </head>
+  <body class="sticky">
+    <div class="header-wrapper">
+      <header class="header">
+        <div class="header__container container animation-top">
+          <div class="header__logo">
+            <a href="index.html" class="header__logo-link">
+              <img
+                src="img/img2-large.jpeg"
+                alt="gk logo"
+                class="header__logo-image"
+              />
+            </a>
+          </div>
+          <div class="header__overlay"></div>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-list-item">
+                <a href="index.html" class="header__nav-link active">Home</a>
+              </li>
+
+              <li class="header__nav-list-item">
+                <a href="product.html" class="header__nav-link">Products</a>
+              </li>
+
+              <li class="header__nav-list-item">
+                <a href="about.html" class="header__nav-link">About</a>
+              </li>
+
+              <li>
+                <a href="services.html" class="header__nav-link">Services</a>
+              </li>
+
+              <li class="header__nav-list-item">
+                <a href="contact.html" class="header__nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- <div class="header__btns">
+              <button class="header__btn">
+                <span class="header__btn-inner header__btn-inner-1">
+                  let's talk
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="header__btn-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                    />
+                  </svg>
+                </span>
+                <span class="header__btn-inner header__btn-inner-2">
+                  let's talk
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="header__btn-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div> -->
+          <!--  -->
+          <!-- HEADER BUTTON AND ICON -->
+          <div class="header__button">
+            <div class="header__icon-bag">
+              <figure class="header__icon-bag2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="header__icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                  />
+                </svg>
+                <div class="cart" style="cursor: pointer">
+                  <span id="cart-count" class="header__count">0</span>
+                </div>
+              </figure>
+            </div>
+          </div>
+
+          <!-- sliding cart sidebar -->
+          <aside class="cart-sidebar" aria-hidden="true">
+            <div class="cart-header">
+              <h2 class="heading-2 cart-heading fade-in">Cart</h2>
+              <button class="close-cart" aria-label="Close cart">✕</button>
+            </div>
+            <ul id="cart-list"></ul>
+            <div class="cart-footer">
+              <div class="cart-total">
+                Total: <span id="cart-total">$0.00</span>
+              </div>
+              <button id="checkout-btn" class="btn cart-button">
+                Checkout
+              </button>
+            </div>
+          </aside>
+          <div class="cart-overlay"></div>
+          <!-- overlay -->
+
+          <!-- Wishlist Sidebar -->
+          <aside class="wishlist-sidebar">
+            <div class="wishlist-header">
+              <h2 class="heading-2-sub fade-in">Wishlist</h2>
+              <button class="close-wishlist close-cart">✕</button>
+            </div>
+            <ul id="wishlist-list"></ul>
+            <div class="wishlist-overlay" style="display: none"></div>
+          </aside>
+          <!--  -->
+          <div class="header__mobile-btns">
+            <button class="header__mobile-btn header__mobile-btn-open">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="header__mobile-btn-icon header__mobile-btn-icon-open"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </button>
+            <button class="header__mobile-btn header__mobile-btn-close">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="header__mobile-btn-icon header__mobile-btn-icon-close"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+      <section class="section-hero fade-in">
+        <div class="overlay"></div>
+        <div class="hero" id="hero">
+          <h1 class="heading-1 animation-top" id="hero-heading">&nbsp;</h1>
+          <p class="hero__text hero-text animation-bottom" id="hero-title">
+            &nbsp;
+          </p>
+          <div class="hero__btn-container">
+            <a href="#" id="hero-button" class="btn hero__link animation-left"
+              >&nbsp;</a
+            >
+            <!-- <a href="#" id="hero-button" class="btn hero__link">browse for custom order</a> -->
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- HEADER WRAPPER ENDS -->
+    <!-- BEST SELLERS -->
+    <section class="section-best-sellers">
+      <div class="best-sellers container fade-in">
+        <h2 class="heading-2 fade-in">Step Into Style</h2>
+        <div class="line fade-in"></div>
+        <p class="best-sellers__intro">
+          Explore some of our most iconic and timeless shoe designs.
+        </p>
+        <div class="best-sellers__grid">
+          <!-- 01 -->
+          <div class="best-sellers__grid-content fade-in">
+            <picture>
+              <source media="(min-width:1024px)" srcset="img/gk-large.jpg" />
+              <source media="(min-width:768px)" srcset="img/gk-mini.jpg" />
+              <img
+                src="img/gk-mini.jpg"
+                alt="Oxford Elite"
+                class="best-sellers__image"
+                loading="lazy"
+              />
+            </picture>
+            <h3 class="heading-3">Oxford Elite</h3>
+            <p class="best-sellers__price">$120</p>
+            <p class="best-sellers__description">
+              Handcrafted full grain leather Oxford designed for timeless style
+              and all day comfort.
+            </p>
+            <a href="#" class="btn best-sellers__btn">View Details</a>
+          </div>
+          <!-- 02 -->
+          <div class="best-sellers__grid-content fade-in">
+            <picture>
+              <source media="(min-width:1024px)" srcset="img/img1-large.jpg" />
+              <source media="(min-width:768px)" srcset="img/img1-large.jpg" />
+              <img
+                src="img/img1-large.jpg"
+                alt="Chelsea Prime"
+                class="best-sellers__image"
+                loading="lazy"
+              />
+            </picture>
+            <h3 class="heading-3">Chelsea Prime</h3>
+            <p class="best-sellers__price">$150</p>
+            <p class="best-sellers__description">
+              Premuim leather Chelsea boots with a sleek silhouette and elastic
+              side panels for easy wear.
+            </p>
+            <a href="#" class="btn best-sellers__btn">View Details</a>
+          </div>
+          <!-- 03 -->
+          <div class="best-sellers__grid-content fade-in">
+            <picture>
+              <source media="(min-width:1024px)" srcset="img/img2-large.jpeg" />
+              <source media="(min-width:768px)" srcset="img/img2-mini.jpeg" />
+              <img
+                src="img/img2-large.jpeg"
+                alt="Chelsea Prime"
+                class="best-sellers__image"
+                loading="lazy"
+              />
+            </picture>
+            <h3 class="heading-3">Luxe Sneaker</h3>
+            <p class="best-sellers__price">$100</p>
+            <p class="best-sellers__description">
+              Lightweight, Cushioned sneakers built for all day comfort and a
+              modern urban vibe.
+            </p>
+            <a href="#" class="btn best-sellers__btn">View Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BEST SELLERS ENDS -->
+
+    <!-- HIGHLIGHT SECTION -->
+    <section class="section-highlight fade-in">
+      <div class="highlight container">
+        <h2 class="heading-2 fade-in">Shop By Category</h2>
+        <div class="line fade-in"></div>
+        <p class="highlight__intro">
+          Find your perfect style from our curated collections.
+        </p>
+        <div class="highlight__grid">
+          <!-- 01 -->
+          <div class="highlight__grid-card fade-in">
+            <picture>
+              <source media="(min-width:1024px)" srcset="img/img3-large.jpeg" />
+              <source media="(min-width:768px)" srcset="img/img3-mini.jpeg" />
+              <img
+                src="img/img3-large.jpeg"
+                alt="Boots"
+                class="highlight__image"
+                loading="lazy"
+              />
+            </picture>
+            <div class="highlight__grid-content">
+              <h3 class="heading-3 highlight__heading">Boots</h3>
+              <p class="highlight__text">
+                Tough yet stylish boots built for every season. Premium
+                materials meet rugged craftsmanship.
+              </p>
+              <a href="#" class="btn highlight__btn">Shop Now</a>
+            </div>
+          </div>
+          <!-- 02 -->
+          <!-- <div class="highlight__grid-card"> -->
+          <div class="highlight__grid-card fade-in">
+            <picture>
+              <source media="(min-width:1024px)" srcset="img/img4-large.jpeg" />
+              <source media="(min-width:768px)" srcset="img/img4-mini.jpg" />
+              <img
+                src="img/img4-large.jpeg"
+                alt="Formal"
+                class="highlight__image"
+                loading="lazy"
+              />
+            </picture>
+            <div class="highlight__grid-content">
+              <h3 class="heading-3 highlight__heading">Formal</h3>
+              <p class="highlight__text">
+                Refined formal shoes tailored for business, weddings, and every
+                sharp occasion. Luxury you can walk in.
+              </p>
+              <a href="#" class="btn highlight__btn">Shop Now</a>
+            </div>
+          </div>
+          <!-- </div> -->
+          <!-- 03 -->
+          <div class="highlight__grid-card fade-in">
+            <picture>
+              <source media="(min-width:1024px)" srcset="img/img5-large.jpeg" />
+              <source media="(min-width:768px)" srcset="img/img5-mini.jpeg" />
+              <img
+                src="img/img5-large.jpeg"
+                alt="Loafers"
+                class="highlight__image"
+                loading="lazy"
+              />
+            </picture>
+            <div class="highlight__grid-content">
+              <h3 class="heading-3 highlight__heading">Loafers</h3>
+              <p class="highlight__text">
+                Effortless slip-on elegance. Handcrafted loafers that bring
+                timeless class and comfort to every step.
+              </p>
+              <a href="#" class="btn highlight__btn">Shop Now</a>
+            </div>
+          </div>
+          <!-- 04 -->
+          <div class="highlight__grid-card fade-in">
+            <picture>
+              <source media="(min-width:1024px)" srcset="img/gk-large.jpg" />
+              <source media="(min-width:768px)" srcset="img/gk-mini.jpg" />
+              <img
+                src="img/gk-large.jpg"
+                alt="sneakers"
+                class="highlight__image"
+                loading="lazy"
+              />
+            </picture>
+            <div class="highlight__grid-content">
+              <h3 class="heading-3 highlight__heading">Sneakers</h3>
+              <p class="highlight__text">
+                Bold streetwear inspired sneakers designed for all day comfort
+                and standout style.
+              </p>
+              <a href="#" class="btn highlight__btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HIGHLIGHT SECTION ENDS -->
+    <!-- ABOUT US -->
+    <section class="section-about fade-in">
+      <h2 class="heading-2 fade-in">About Gk Wearz</h2>
+      <div class="line fade-in"></div>
+      <div class="about container">
+        <div class="about__text-content fade-in">
+          <p class="about__intro">Where craftsmanship meets modern style.</p>
+          <p class="about__text">
+            At Gk wearz, we believe shoes are more than accessories they're an
+            extension of your personality. Every pair we craft is handmade with
+            precision, using Premium materials sourced from suppliers. From
+            timeless formal shoes to bold street sneakers, our mission is to
+            deliver comfort, durability, and style that never fade.
+          </p>
+
+          <p class="about__text">
+            With a focus on custom designs and attention to detail, Gk wearz
+            offers footwear that feels as good as it looks. We're redefining
+            what it means to step out in confidence.
+          </p>
+          <a href="about.html" class="btn about__btn">Learn More</a>
+        </div>
+
+        <div class="about__image-container fade-in">
+          <picture>
+            <source media="(min-width:1024px)" srcset="img/gk-large.jpg" />
+            <source media="(min-width:768px)" srcset="img/gk-mini.jpg" />
+            <img
+              src="img/gk-large.jpg"
+              alt="GK PHOTO"
+              class="about__image"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT US END -->
+
+    <!-- CTA SECTION -->
+    <section class="section-cta fade-in">
+      <h2 class="heading-2 fade-in">Your Dream Shoes, Handmade.</h2>
+      <div class="line fade-in"></div>
+      <div class="cta container">
+        <div class="cta__container-text fade-in">
+          <p class="cta__text">
+            At Gk wearz, we specialize in creating shoes as unique as you are.
+            choose your design, colors, and materials, and let us bring your
+            vision to life.
+          </p>
+          <a
+            href="https://wa.me/2348012345678?text=Hi%20Gk%20Wearz!%20I%20want%20a%20custom%20pair."
+            class="cta__whatsapp btn"
+            >Start Custom Order</a
+          >
+          <!-- whatsapp link-->
+        </div>
+        <div class="cta__container-image fade-in">
+          <picture>
+            <source media="(min-width:1024px)" srcset="img/gk-large.jpg" />
+            <source media="(min-width:768px)" srcset="img/gk-mini.jpg" />
+            <img
+              src="img/gk-large.jpg"
+              alt="GK PHOTO"
+              class="cta__image cta__image-1"
+              loading="lazy"
+            />
+          </picture>
+
+          <picture>
+            <source media="(min-width:1024px)" srcset="img/img1-large.jpg" />
+            <source media="(min-width:768px)" srcset="img/img1-large.jpg" />
+            <img
+              src="img/img1-large.jpg"
+              alt="GK PHOTO"
+              class="cta__image cta__image-2"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+    <!-- CTA SECTION ENDS -->
+
+    <!-- TESTIMONIAL SECTION -->
+    <section class="section-testimonial fade-in">
+      <h2 class="heading-2 fade-in">Our Clients Reviews</h2>
+      <div class="line fade-in"></div>
+      <div class="testimonial container">
+        <div class="testimonial__slider">
+          <!-- 01 -->
+          <div class="testimonial__card active">
+            <p class="testimonial__text">
+              "These shoes are amazing! The quality is unmatched and they fit
+              perfectly."
+            </p>
+            <div class="testimonial__info">
+              <img
+                src="img/user-1.jpg"
+                alt="Daniel testimonial"
+                class="testimonial__image"
+              />
+              <h3 class="heading-3 testimonial__heading">Daniel A.</h3>
+            </div>
+          </div>
+          <!--  -->
+          <!-- 02 -->
+          <div class="testimonial__card">
+            <p class="testimonial__text">
+              "I got my custom Chelsea boots from Gk wearz. Worth every penny!"
+            </p>
+            <div class="testimonial__info">
+              <img
+                src="img/user-2.jpg"
+                alt="maria testimonial"
+                class="testimonial__image"
+              />
+              <h3 class="heading-3 testimonial__heading">Maria K.</h3>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- 03 -->
+          <div class="testimonial__card">
+            <p class="testimonial__text">
+              "Stylish, Durable, and comfortable from day one. Highly
+              recommend!"
+            </p>
+            <div class="testimonial__info">
+              <img
+                src="img/user-3.jpg"
+                alt="jamal testimonial"
+                class="testimonial__image"
+              />
+              <h3 class="heading-3 testimonial__heading">Jamal R.</h3>
+            </div>
+          </div>
+          <!--  -->
+          <!--  -->
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIAL SECTION ENDS -->
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="section-newsletter fade-in">
+      <h2 class="heading-2 fade-in">Join The Gk wearz Circle</h2>
+      <div class="line fade-in"></div>
+      <div class="newsletter container">
+        <p class="newsletter__text">
+          Get 10% off your first order and be the first to know about new
+          collections and special offers.
+        </p>
+        <form class="newsletter__form" onsubmit="return false;">
+          <input
+            id="input"
+            type="email"
+            placeholder="Enter your email"
+            required
+          />
+          <button type="submit" class="btn newsletter__btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <!-- NEWSLETTER SECTION ENDS -->
+
+    <!-- FOOTER STARTS -->
+    <section class="section-footer fade-in">
+      <footer class="footer">
+        <!-- <h2 id="footer-heading" class="heading-2 sr-only">Gk Wearz footer</h2> -->
+
+        <div class="footer__grid">
+          <!-- Brand -->
+          <div class="footer__brand">
+            <a href="index.html" class="footer__logo-link">
+              <img
+                src="img/img2-large.jpeg"
+                alt="gk logo"
+                class="footer__logo-image"
+              />
+              <span class="footer__brand-mark">Gk </span> Wearz
+            </a>
+            <div class="footer__tagline">
+              Handcrafted footwear for timeless style.
+            </div>
+            <div class="footer__tagline">
+              Made with premium materials. Built to last.
+            </div>
+          </div>
+          <!-- Support links -->
+          <nav class="footer__nav" aria-label="support">
+            <h3 class="heading-3 footer__heading">Support</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="about.html" class="footer__links">About Gk wearz</a>
+              </li>
+              <li class="footer__item">
+                <a href="custom.html" class="footer__links">Custom Orders</a>
+              </li>
+              <li class="footer__item">
+                <a href="shipping.html" class="footer__links"
+                  >Shipping & Delivery</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="returns.html" class="footer__links"
+                  >Returns & Exchanges</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="faqs.html" class="footer__links">Faqs</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- contact and socials -->
+          <div class="footer__contact">
+            <h3 class="heading-3 footer__heading footer__heading">Contact</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="mailto:gk@gmail.com" class="footer__links"
+                  >gk@gmail.com</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="tel:+2347061324182" class="footer__links"
+                  >+2347061324182</a
+                >
+              </li>
+              <li class="footer__item">Cross River, Nigeria</li>
+            </ul>
+          </div>
+          <!-- socials -->
+          <div class="footer__socials" aria-label="social media">
+            <h3 class="heading-3 footer__heading">Socials</h3>
+            <div class="footer__socials-media">
+              <!-- 01 -->
+              <!-- <a
+                href="https://wa.me/2348012345678?text=Hi%20Gk%20Wearz!%20I%20want%20a%20custom%20pair."
+                target="_blank"
+                aria-label="WhatsApp"
+                class="footer__links"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="22"
+                  height="22"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M20.5 3.5A11 11 0 0 0 3.4 20.6L2 22l1.7-.4A11 11 0 1 0 20.5 3.5Zm-8.2 17.6a9.2 9.2 0 0 1-4.7-1.3l-.3-.2-2.8.7.8-2.7-.2-.3a9.2 9.2 0 1 1 7.2 3.8Zm5-6.9c-.3-.2-1.8-.9-2-1-.2-.1-.4-.2-.5.2s-.6 1-.7 1.1c-.1.2-.3.2-.6.1a7.5 7.5 0 0 1-2.2-1.4 8.4 8.4 0 0 1-1.6-2c-.2-.4 0-.5.2-.7l.4-.5c.2-.2.2-.3.3-.5l.2-.5c0-.2 0-.4 0-.5 0-.2-.4-.5-.6-.5H9c-.2 0-.5 0-.8.4l-.2.5c-.2.5-.9 1-.9 2.3s1 2.6 1.1 2.8a9.6 9.6 0 0 0 3.6 3c.5.2 1 .4 1.4.5.5.2 1 .2 1.3.1.4-.1 1.8-.7 2-1.4s.2-1.3.1-1.4c0-.1-.2-.1-.3-.2Z"
+                    class="footer__icon"
+                  />
+                </svg>
+              </a> -->
+              <!-- 02 -->
+              <a
+                href="https://instagram.com/gkwearz"
+                target="_blank"
+                aria-label="Instagram"
+                class="footer__links"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="30"
+                  height="30"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.5 5.5 0 0 1 12 7.5Zm0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5Zm5.8-2.3a1 1 0 1 1-1.4 1.4 1 1 0 0 1 1.4-1.4Z"
+                    class="footer__icon"
+                  />
+                </svg>
+              </a>
+              <!-- 03 -->
+              <a
+                href="https://tiktok.com/@gkwearz"
+                target="_blank"
+                aria-label="TikTok"
+                class="footer__links"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="30"
+                  height="30"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M13.5 3h2.3c.2 1 .6 1.8 1.3 2.5a5.9 5.9 0 0 0 2.6 1.5v2.4c-1.7-.1-3.2-.7-4.6-1.7v6.8a5 5 0 1 1-5-5c.3 0 .6 0 .9.1v2.6c-.3-.1-.6-.1-.9-.1a2.4 2.4 0 1 0 2.4 2.4V3Z"
+                    class="footer__icon"
+                  />
+                </svg>
+              </a>
+              <!-- 04 -->
+              <a
+                href="https://facebook.com/gkwearz"
+                target="_blank"
+                aria-label="Facebook"
+                class="footer__links"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="30"
+                  height="30"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M13 22v-9h3l1-4h-4V6.5c0-1.2.3-2 2-2H17V1.1C16.7 1 15.6 1 14.4 1 11.8 1 10 2.6 10 5.7V9H7v4h3v9h3Z"
+                    class="footer__icon"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- WhatsApp CTA (duplicate of above but as a big button) -->
+          <a
+            class="footer__whatsapp-cta footer__links btn"
+            href="https://wa.me/+2347061324182?text=Hi%20Gk%20Wearz!%20I%20want%20a%20custom%20pair."
+            target="_blank"
+            rel="noopener"
+          >
+            Chat on WhatsApp
+          </a>
+        </div>
+
+        <div class="footer__bottom">
+          <p class="footer__bottom-text">
+            © <span id="year" class="year"></span> Gk Wearz. All rights
+            reserved.
+          </p>
+        </div>
+      </footer>
+      <nav aria-label="Legal" class="legal">
+        <a href="privacy.html" class="footer__links">Privacy Policy</a>
+        <span aria-hidden="true">•</span>
+        <a href="terms.html" class="footer__links">Terms of Service</a>
+      </nav>
+    </section>
+    <!-- FOOTER ENDS -->
+    <button id="scrollToTop" aria-label="scroll to top">↑</button>
+  </body>
+</html>

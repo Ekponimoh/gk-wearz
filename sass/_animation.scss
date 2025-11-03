@@ -1,0 +1,64 @@
+@keyframes ChangeColor {
+  0% {
+    color: var(--color-text-secondary);
+    text-shadow: 0 1rem 1rem rgba(#000000, 0.9);
+  }
+
+  50% {
+    color: var(--color-border-light);
+    text-shadow: 0 1rem 1rem rgba(#000000, 0.9);
+  }
+
+  100% {
+    color: var(--color-background-primary);
+    text-shadow: 0 1rem 1rem rgba(#000000, 0.9);
+  }
+}
+
+@keyframes MoveRight {
+  0% {
+    transform: translate(10rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes MoveLeft {
+  0% {
+    transform: translateX(-10rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes MoveTop {
+  0% {
+    transform: translateY(-10rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes MoveBottom {
+  0% {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
