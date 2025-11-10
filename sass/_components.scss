@@ -61,14 +61,14 @@
 }
 
 .best-sellers {
-  opacity: 0;
-  transform: translateX(30px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  // opacity: 0;
+  // transform: translateX(30px);
+  // transition: opacity 0.8s ease, transform 0.8s ease;
 
-  &.visible {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  // &.visible {
+  //   opacity: 1;
+  //   transform: translateX(0);
+  // }
   &__intro {
     text-align: center;
     margin-top: 30px;
@@ -147,14 +147,14 @@
 // ***********************************************
 // ***********************************************
 .section-highlight {
-  opacity: 0;
-  transform: translateX(-100px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  // opacity: 0;
+  // transform: translateX(-100px);
+  // transition: opacity 0.8s ease, transform 0.8s ease;
 
-  &.visible {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  // &.visible {
+  //   opacity: 1;
+  //   transform: translateX(0);
+  // }
   background-color: var(--accent-color-light);
   padding: 10rem 0;
 }
@@ -653,3 +653,4 @@
     color: var(--color-white);
   }
 }
+
